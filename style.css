@@ -1,0 +1,468 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* header section */
+header{
+    background: linear-gradient(to top,
+    rgba(0, 0, 255, 0.199),
+    rgba(255, 0, 0, 0),
+    rgba(108, 159, 230, 0.922)),
+    url("header-hero.jpg");
+    height: 100vh;
+    width: auto;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    padding: 60px;
+}
+/* navbar begins here */
+.main-nav{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    justify-content: space-around;
+    width: auto;
+    height: 100px;
+    gap: 40%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.main-nav div img{
+    width: 60px; 
+}
+
+.main-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-nav ul button{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu-icon{
+    font-size: 30px;
+    font-weight: 200;
+    cursor: pointer;
+    display: none;
+    color: rgb(247, 244, 237);
+}
+
+/* navbar ends here */
+
+/* hero-section starts here */
+.hero-section{
+    margin-top: 90px;
+    justify-items: center;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+.hero-section h3{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    margin-bottom: -30px;
+}
+.hero-section h1{
+    font-size: 110px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+.hero-section p{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.hero-section button{
+    margin-top: 17px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(222, 202, 16);
+    background-color: transparent;
+}
+.hero-section button:hover{
+    cursor: pointer;
+}
+/* hero-section ends here */
+
+/* service-section begins here */
+.service-section{
+    margin-top: 80px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.service-section-services{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    
+}
+
+.service-section h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(13, 81, 13, 0.703);
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.service-section button{
+    margin-bottom: 70px;
+    background-color: rgb(255, 210, 12);
+    color: yellow;
+    width: 120px;
+    height: 4px;
+    border-color: transparent;
+}
+
+.service-section h3{
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(13, 81, 13, 0.703);
+}
+
+.service-section p {
+    width: 350px;
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(13, 81, 13, 0.445);
+}
+/* service-section ends here */
+
+/* testimonial section begins here */
+.testimonial-section{
+    background-color: rgb(242, 253, 236);
+    margin-top: 90px;
+    height: 80vh;
+    justify-items: center;
+    border-bottom: 80px;
+}
+.testimonial-section p{
+    width: 700px;
+    margin-top: 50px;
+    font-size: 35px;
+    color: rgba(13, 81, 13, 0.703);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.testimonial-section img{
+    align-items: center;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonial-image2 img{
+    width: 60px;
+    margin-bottom: 15px;
+}
+.testimonial-section h6{
+    color: rgba(13, 81, 13, 0.703);
+    font-size: 15px;
+    font-weight: lighter;
+}
+/* testimonial section ends here */
+
+/* About Us Section begins here */
+.about-us-section{
+    /* border-top: 30px; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.about-us{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 250px;
+    justify-content: space-around;
+}
+.about-us .div-1{
+    width: 400px;
+}
+.about-us .div-1 h6{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: rgba(13, 81, 13, 0.445);
+}
+.about-us .div-1 h1{
+    width: 420px;
+    font-size: 40px;
+    color: rgba(13, 81, 13, 0.703);
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.about-us p{
+    font-size: 19px;
+    margin-bottom: 50px;
+    line-height: 25px;
+    color: rgba(13, 81, 13, 0.445);
+}
+.about-us button{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgba(13, 81, 13, 0.445);
+    color: rgba(13, 81, 13, 0.445);
+    background-color: transparent;
+}
+.about-us .div-1 button:hover{
+    color: rgb(10, 207, 10, 0.703);
+    border-color: rgba(10, 207, 10, 0.703);
+    cursor: pointer;
+}
+.about-us img{
+    height: 470px;
+}
+/* About Us Section ends here */
+
+/* Contact Us Section Starts here */
+.contact-section{
+    background: linear-gradient(to top,
+    rgba(0, 0, 255, 0.199),
+    rgba(255, 0, 0, 0),
+    rgba(108, 159, 230, 0.922)),
+    url("footer.webp");
+    height: 75vh;
+    width: auto;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    justify-items: center;
+    padding: auto;
+    background-repeat: none;
+}
+.contact-section-2{
+    justify-items: center;
+    
+}
+.contact-section h1{
+    justify-items: center;
+    padding-top: 110px;
+    color: rgba(13, 81, 13, 0.703);
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    
+}
+.contact-section p{
+    color: rgba(13, 81, 13, 0.445);
+    font-size: 25px;
+    padding-top: 8px;
+}
+.contact-section button{
+    margin-top: 70px;
+    width: 180px;
+    height: 55px;
+    border-radius: 5px;
+    color: rgba(13, 81, 13, 0.445);
+    background-color: transparent;
+    font-size: 15px;
+    border-color: rgba(207, 151, 10, 0.97);
+}
+.contact-section button:hover{
+    cursor: pointer;
+    background-color: rgba(207, 151, 10, 0.97) ;
+}
+/* Contact Us Section ends here */
+
+/* footer section begins here */
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+.footer-section .footer-1 ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: rgba(13, 81, 13, 0.703);
+    cursor: pointer;
+}
+.footer-section img{
+    width: 55px;
+}
+.footer-section p{
+    color: rgba(13, 81, 13, 0.703);
+}
+/* footer section begins here */
+
+
+
+
+
+/* media query starts here */
+@media(max-width: 1024px){
+    header{
+        height: auto;
+        width: auto;
+    }
+    .main-nav{
+        gap: 20%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .service-section-services{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial-section{
+        height: auto;
+        width: auto;
+    }
+    .testimonial-image2{
+        height: auto;
+        width: auto;
+    }
+    
+    .about-us{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+        gap: 50px;
+    }
+    .about-us .div-1{
+        width: 200px;
+        height: 350px;
+    }
+    .about-us .div-2 img{
+        width: 350px;
+        height: 560px;
+    }
+    .about-us .div-1 h1{
+        font-size: 30px;
+        width: 220px;
+    }
+    .contact-section{
+        height: 50vh;
+    }
+    
+    
+    
+}
+
+@media(max-width: 920px){
+    .main-nav{
+        width: auto;
+        gap: 60%;
+    }
+    
+    .main-nav ul{
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: auto;
+        text-align: center;
+    }
+    .main-nav ul.show{
+        display: flex;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-section .footer-1 ul{
+        gap: 50px;
+    }
+   
+}
+
+@media(max-width: 834px){
+    
+
+}
+
+@media (max-width: 768px) {
+    .testimonial-section{
+        height: auto;
+        width: auto;
+        /* font-size: small; */
+        /* text-align: center; */
+        /* align-items: center; */
+    }
+    .testimonial-section p{
+        font-size: 25px;
+        width: 400px;
+    }
+    .about-us{
+        gap: 25px;
+        justify-content: space-evenly;
+    }
+    .about-us .div-1{
+        width: 100px;
+    }
+    .about-us .div-1 h1{
+        font-size: 20px;
+        width: 120px;
+    }
+    .about-us .div-1 p{
+        font-size: 10px;
+    }
+    .about-us .div-1 button{
+        width: 100px;
+    }
+    .about-us .div-2 img{
+        width: 200px;
+        height: 550px;
+    }
+    .contact-section{
+        height: auto;
+    }
+    .contact-section h1{
+        font-size: 50px;
+    }
+    .contact-section p{
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    
+}
+
+/* media query ends here */
